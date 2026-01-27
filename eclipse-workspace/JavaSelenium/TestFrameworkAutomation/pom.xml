@@ -35,12 +35,13 @@
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/org.webjars.npm/webdriver-manager -->
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>6.3.2</version>
-			<scope>test</scope>
-		</dependency>
+		<!-- Source: https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.3.3</version>
+    <scope>compile</scope>
+</dependency>
 		<!--
 		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
